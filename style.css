@@ -1,18 +1,23 @@
-*{
-
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     justify-content: space-around;
 }
-.menus, a{
+
+.menus,
+a {
     list-style: none;
     display: flex;
     margin-right: 20px;
     text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
     text-decoration: none;
-    
+
 }
