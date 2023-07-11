@@ -105,7 +105,8 @@ li {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
-.services{
+
+.services {
     background: 1440px 320px;
     background-color: #2727270D;
     display: flex;
@@ -118,19 +119,84 @@ li {
     margin-bottom: 0px;
 
 }
-.hotdeal{
+
+.hotdeal {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
     background-position: ;
     margin-top: 170px;
+    text-align: center;
+    padding: 150px 100px;
+    gap: 100px;
 }
 
 
 
-.secondbanner{
+.secondbanner {
     width: 400pxpx;
     height: 400px;
     margin-bottom: 0px;
+}
+
+.social {
+    text-align: center;
+    margin-top: 170px;
+}
+
+.socialimg {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 0px;
+}
+
+.flo {
+    width: 150px;
+    padding: 2%;
+    margin-bottom: 0px;
+}
+
+.recfour {
+    width: 150px;
+    padding: 2%;
+    margin-bottom: 0px;
+}
+
+.recfive {
+    width: 150px;
+    padding: 2%;
+    margin-bottom: 0px;
+}
+
+.recsix {
+    width: 150px;
+    padding: 2%;
+    margin-bottom: 0px;
+}
+
+.rectangle {
+    background-image: url("images/Rectangle\ 9.png");
+    margin-top: 170px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.latest {
+    text-align: center;
+    padding: 122px 122px 50px 122px;
+}
+
+.iput {
+    text-align: center;
+    margin: auto;
+}
+
+input {
+    width: 400px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
 }
