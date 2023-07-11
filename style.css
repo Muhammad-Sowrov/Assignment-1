@@ -2,7 +2,7 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-
+/* nav styles */
 .nav-container {
     display: flex;
     justify-content: space-around;
@@ -28,15 +28,15 @@ li {
     text-decoration: none;
 
 }
-
+/* header styles */
 .banner-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
-    background-position: ;
+    
 }
-
+/* primary button styles */
 .pri-btn {
     display: inline-flex;
     padding: 20px 43px;
@@ -52,7 +52,7 @@ li {
     height: 400px;
     margin-bottom: 0px;
 }
-
+/* first section styles */
 .firstsec {
     text-align: center;
     margin-top: 170px;
@@ -132,7 +132,7 @@ li {
     gap: 100px;
 }
 
-
+/* SECOND SECTION  */
 
 .secondbanner {
     width: 400pxpx;
@@ -144,7 +144,7 @@ li {
     text-align: center;
     margin-top: 170px;
 }
-
+/* HOT DEALS STYLES */
 .socialimg {
     display: flex;
     justify-content: space-around;
@@ -176,7 +176,7 @@ li {
     padding: 2%;
     margin-bottom: 0px;
 }
-
+/* RECTANGLE BG-IMAGE */
 .rectangle {
     background-image: url("images/Rectangle\ 9.png");
     margin-top: 170px;
@@ -192,6 +192,7 @@ li {
 .iput {
     text-align: center;
     margin: auto;
+    padding-bottom: 100px;
 }
 
 input {
@@ -199,4 +200,24 @@ input {
     height: 52px;
     border-radius: 8px;
     background: #FFF;
+}
+
+/* FOOTER STYLES */
+
+
+.footer-section{
+    text-align: center;
+    margin-top: 120px;
+    color: #FFFFFF;
+    background: #111010;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 100px 340px;
+    font-size:
+}
+.fotterh{
+    margin-bottom: 25px;
+}
+.footerp{
+    margin-bottom: 25px;
 }
