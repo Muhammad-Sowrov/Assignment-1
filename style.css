@@ -6,6 +6,13 @@
 .nav-container {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+.logos {
+    color: #E55473;
+    line-height: normal;
 }
 
 .menus,
@@ -20,4 +27,78 @@ li {
     list-style: none;
     text-decoration: none;
 
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    background-position: ;
+}
+
+.pri-btn {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    cursor: pointer;
+}
+
+.banner-image {
+    width: 400pxpx;
+    height: 400px;
+    margin-bottom: 0px;
+}
+
+.firstsec {
+    text-align: center;
+    margin-top: 170px;
+}
+
+.firstsec-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 0px;
+}
+
+.six {
+    width: 150px;
+    padding: 2%;
+    margin-bottom: 0px;
+}
+
+.seven {
+    width: 150px;
+    padding: 2%;
+    margin-bottom: 0px;
+}
+
+.five {
+    width: 150px;
+    padding: 2%;
+    margin-bottom: 0px;
+}
+
+.ali {
+    text-align: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.alitwo {
+    text-align: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.alithree {
+    text-align: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
