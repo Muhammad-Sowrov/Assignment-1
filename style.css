@@ -1,12 +1,15 @@
 * {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 /* nav styles */
 .nav-container {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    padding-top: 15px;
 
 }
 
@@ -34,14 +37,21 @@ li {
     justify-content: space-around;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
+    padding-left: 70px;
+    padding-right: 70px;
     
 }
+.pdb{
+    padding-bottom: 20px;
+}
+
 /* primary button styles */
 .pri-btn {
     display: inline-flex;
     padding: 20px 43px;
     align-items: flex-start;
     gap: 10px;
+    color: #FFFFFF;
     border-radius: 8px;
     background: #E55473;
     cursor: pointer;
@@ -117,6 +127,8 @@ li {
     margin-left: 240px;
     margin-right: 240px;
     margin-bottom: 0px;
+    padding-top: 80px;
+    padding-bottom: 50px;
 
 }
 
@@ -142,7 +154,7 @@ li {
 
 .social {
     text-align: center;
-    margin-top: 170px;
+    margin-top: 120px;
 }
 /* HOT DEALS STYLES */
 .socialimg {
@@ -179,7 +191,7 @@ li {
 /* RECTANGLE BG-IMAGE */
 .rectangle {
     background-image: url("images/Rectangle\ 9.png");
-    margin-top: 170px;
+    margin-top: 120px;
     margin-left: 240px;
     margin-right: 240px;
 }
