@@ -244,3 +244,18 @@ input {
 .footerp {
     margin-bottom: 25px;
 }
+@media screen and (max-width: 576px){
+    .banner-container{
+        flex-direction: column;
+    }
+    .firstsec-img{
+        flex-direction: column;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .hotdeal{
+        flex-direction: column;
+    }
+    
+}
